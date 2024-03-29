@@ -3,6 +3,7 @@ name: Unit test and examples
 on:
   push:
   pull_request:
+  workflow_dispatch:
 
   # every day at 3 am UTC
   schedule:
